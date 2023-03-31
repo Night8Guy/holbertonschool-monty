@@ -10,6 +10,11 @@ void parse_me(char *function_name, unsigned int line_number, stack_t **stack)
 {
 	instruction_t inst[] = {{"pall", pall},
 							{"push", push},
+							{"pint", pint},
+							{"pop", pop},
+							{"add", add},
+							{"swap", swap},
+							{"nop", nop},
 							{NULL, NULL}};
 	unsigned int i;
 
